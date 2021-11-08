@@ -32,8 +32,14 @@ public class Driver {
         if(driver == null){
             switch (ConfigurationReader.getProperty("browser")){
                 case "chrome":
-                   WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    ChromeOptions options1 = new ChromeOptions();
+                    options1.addArguments("--window-size=1920,1080");
+                    options1.addArguments("--start-maximized");
+                    options1.addArguments("--headless");
+                    options1.addArguments("--no-sandbox");
+                    options1.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
+                    System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+                    driver = new ChromeDriver(options1);
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
