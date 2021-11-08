@@ -1,5 +1,5 @@
 @sprint3  @smoke
-Feature:
+Feature: api
 
   Scenario Outline: US-70-TC-001 the user login with valid credentials
     Given the user login with "<email>" and "<sifre>"
