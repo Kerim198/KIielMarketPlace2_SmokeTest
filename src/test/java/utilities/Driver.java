@@ -40,7 +40,7 @@ public class Driver {
                     options1.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
                     System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
-                    driver = new ChromeDriver();
+                    driver = new ChromeDriver(options1);
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
