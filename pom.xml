@@ -142,7 +142,6 @@
                 <configuration>
                     <encoding>UTF-8</encoding>
                     <fork>true</fork>
-                    <executable>C:\Program Files (x86)\Java\jdk1.8.0_291\bin\javac.exe</executable>
                 </configuration>
             </plugin>
         </plugins>
