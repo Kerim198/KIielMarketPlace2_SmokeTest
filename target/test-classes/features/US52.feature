@@ -1,15 +1,15 @@
-@sprint2 @smoke
+@sprint2
 Feature: As a User I should be able to sign out with "Cikis" button
   Background: Login with valid credentials
     Given the user is on the login page
     When the user enters the user credentials
 
-  @SignOut
+  @SignOut @smoke
   Scenario: Sign out page should be active.
     Given user clicks my profile button
     Then logout button should be enable
 
-  @SignOut
+  @SignOut @smoke
   Scenario: After logout the page login button should be visible instead my profile button.
     Given user clicks my profile button
     Given User clicks the logout button

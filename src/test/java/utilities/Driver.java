@@ -38,9 +38,10 @@ public class Driver {
                     options1.addArguments("--headless");
                     options1.addArguments("--no-sandbox");
                     options1.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-                    System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+                    //System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
-                    driver = new ChromeDriver(options1);
+                    WebDriverManager.chromedriver().setup();
+                    driver = new ChromeDriver();
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();

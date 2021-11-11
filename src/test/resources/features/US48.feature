@@ -1,4 +1,3 @@
-@smoke
 Feature: Send a notification
 
   #Bir admin olarak bildirimler sayfasında bildirim gonderebilmeliyim.
@@ -12,9 +11,11 @@ Feature: Send a notification
     And user clicks my profile button
     Then the user clicks notifications button
 
+  @smoke
   Scenario: Send notification
     Given send a notification to the local managers
 
+  @smoke
   Scenario:  Send notification
     Given send a notification to the users
 

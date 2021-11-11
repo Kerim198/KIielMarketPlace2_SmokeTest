@@ -1,362 +1,17 @@
 [
   {
-    "line": 3,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-08T23:27:44.787Z",
-        "before": [
-          {
-            "result": {
-              "duration": 5373000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Login as a created new user",
-        "description": "",
-        "id": "login;login-as-a-created-new-user",
-        "after": [
-          {
-            "result": {
-              "duration": 760000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4568000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 627000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the user enters \"admin@gmail.com\" and \"Admin123.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"admin@gmail.com\"",
-                  "offset": 16
-                },
-                {
-                  "val": "\"Admin123.\"",
-                  "offset": 38
-                }
-              ],
-              "location": "step_definitions.Login_Defs.the_user_enters_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1031000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_should_be_able_to_login()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-08T23:27:57.421Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2729000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "Login as a admin",
-        "description": "",
-        "id": "login;login-as-a-admin",
-        "after": [
-          {
-            "result": {
-              "duration": 762000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4798000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 742000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "the user enters the admin credentials",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1038000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_should_be_able_to_login()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-08T23:28:07.506Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2724000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Login as a user",
-        "description": "",
-        "id": "login;login-as-a-user",
-        "after": [
-          {
-            "result": {
-              "duration": 812000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4748000000,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 792000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "the user enters the user credentials",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_enters_the_user_credentials()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1023000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_should_be_able_to_login()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-11-08T23:28:17.622Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2689000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 24,
-        "name": "Login as a local manager",
-        "description": "",
-        "id": "login;login-as-a-local-manager",
-        "after": [
-          {
-            "embeddings": [
-              {
-                "data": "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BKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAAAQEsEqAAAAAAAAAIREsAoAAAAAAAAAIRGsAgAAAAAAAEBIBKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAAAQEsEqAAAAAAAAAIREsAoAAAAAAAAAIRGsAgAAAAAAAEBIBKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAAAQEsEqAAAAAAAAAIREsAoAAAAAAAAAIRGsAgAAAAAAAEBIBKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAAAQEsEqAAAAAAAAAIREsAoAAAAAAAAAIRGsAgAAAAAAAEBIBKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAAAQEsEqAAAAAAAAAIREsAoAAAAAAAAAIRGsAgAAAAAAAEBIBKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAAAQEsEqAAAAAAAAAIREsAoAAAAAAAAAIRGsAgAAAAAAAEBIBKsAAAAAAAAAEBLBKgAAAAAAAACERLAKAAAAAAAAACERrAIAAAAAAABASASrAAAAAAAAABASwSoAAAAAAAAAhESwCgAAAAAAAAAhEawCAAAAAAAAQEgEqwAAAAAAAP9/O3YsAAAAADDI33oM+wsjgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAALRvwSUAAAI+SURBVIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAJFYBAAAAACaxCgAAAAAwiVUAAAAAgEmsAgAAAABMYhUAAAAAYBKrAAAAAACTWAUAAAAAmMQqAAAAAMAkVgEAAAAAJrEKAAAAADCJVQAAAACASawCAAAAAExiFQAAAABgEqsAAAAAAJNYBQAAAACYxCoAAAAAwCRWAQAAAAAmsQoAAAAAMIlVAAAAAIBJrAIAAAAATGIVAAAAAGASqwAAAAAAk1gFAAAAAJjEKgAAAADAFIiX7ln+ti8RAAAAAElFTkSuQmCC",
-                "mime_type": "image/png",
-                "name": "screenshot"
-              }
-            ],
-            "result": {
-              "duration": 1185000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5716000000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 655000000,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "the user enters the local manager credentials",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_enters_the_local_manager_credentials()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: unknown error: failed to change window state to \u0027normal\u0027, current state is \u0027maximized\u0027\n  (Session info: chrome\u003d95.0.4638.69)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-CFSA1I0\u0027, ip: \u0027192.168.142.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027x86\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_291\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\\Users\\ceng\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51756}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 61dbb610b50c8ea2f5f6037539a7496f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\r\n\tat utilities.Driver.getDriver(Driver.java:68)\r\n\tat step_definitions.Login_Defs.the_user_should_be_able_to_login(Login_Defs.java:39)\r\n\tat ✽.the user should be able to login(file:///C:/Users/ceng/Desktop/KIielMarketPlace2_SmokeTest/src/test/resources/features/Loginn.feature:27)\r\n",
-              "duration": 1217000000,
-              "status": "failed"
-            },
-            "line": 27,
-            "name": "the user should be able to login",
-            "match": {
-              "location": "step_definitions.Login_Defs.the_user_should_be_able_to_login()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          }
-        ]
-      }
-    ],
-    "name": "Login",
-    "description": "",
-    "id": "login",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Loginn.feature",
-    "tags": [
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 3,
-    "elements": [
-      {
-        "start_timestamp": "2021-11-08T23:28:29.131Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2807000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 5,
+        "start_timestamp": "2021-11-11T14:51:36.559Z",
+        "line": 4,
         "name": "US-043-TC-001 Save as button should be enabled when filled mandatory fields",
         "description": "",
         "id": "user-should-be-able-to-create-a-new-add-after-entering-required-datas;us-043-tc-001-save-as-button-should-be-enabled-when-filled-mandatory-fields",
         "after": [
           {
             "result": {
-              "duration": 785000000,
+              "duration": 853000000,
               "status": "passed"
             },
             "match": {
@@ -369,10 +24,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4990000000,
+              "duration": 10661000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "the user is on the login page",
             "match": {
               "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
@@ -381,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 793000000,
+              "duration": 510000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "the user enters the admin credentials",
             "match": {
               "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
@@ -393,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 4597000000,
+              "duration": 4581000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "the user goes to the \"http://environment.kielmarketplace.nl/add_ilan\"",
             "match": {
               "arguments": [
@@ -411,10 +66,10 @@
           },
           {
             "result": {
-              "duration": 67000000,
+              "duration": 70000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "Verify save ad button is enabled",
             "match": {
               "location": "step_definitions.US43_Defs.verifySaveAdButtonIsEnabled()"
@@ -429,18 +84,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:28:43.192Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2719000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:51:53.457Z",
         "line": 11,
         "name": "US-043-TC-002 See successfully saved ad when click save ad button",
         "description": "",
@@ -448,7 +92,7 @@
         "after": [
           {
             "result": {
-              "duration": 778000000,
+              "duration": 647000000,
               "status": "passed"
             },
             "match": {
@@ -461,7 +105,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4646000000,
+              "duration": 5993000000,
               "status": "passed"
             },
             "line": 12,
@@ -473,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 724000000,
+              "duration": 320000000,
               "status": "passed"
             },
             "line": 13,
@@ -485,7 +129,7 @@
           },
           {
             "result": {
-              "duration": 4580000000,
+              "duration": 4144000000,
               "status": "passed"
             },
             "line": 14,
@@ -503,7 +147,7 @@
           },
           {
             "result": {
-              "duration": 15675000000,
+              "duration": 14535000000,
               "status": "passed"
             },
             "line": 15,
@@ -515,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 93000000,
               "status": "passed"
             },
             "line": 16,
@@ -527,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 1132000000,
+              "duration": 1371000000,
               "status": "passed"
             },
             "line": 17,
@@ -556,22 +200,13 @@
     "id": "user-should-be-able-to-create-a-new-add-after-entering-required-datas",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/US43.feature",
-    "tags": [
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   },
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 9,
+        "line": 8,
         "name": "Login as an admin",
         "description": "",
         "type": "background",
@@ -579,10 +214,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4754000000,
+              "duration": 5269000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "the user is on the login page",
             "match": {
               "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
@@ -591,10 +226,10 @@
           },
           {
             "result": {
-              "duration": 678000000,
+              "duration": 263000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "the user enters the admin credentials",
             "match": {
               "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
@@ -603,10 +238,10 @@
           },
           {
             "result": {
-              "duration": 588000000,
+              "duration": 567000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "user clicks my profile button",
             "match": {
               "location": "step_definitions.US52_Defs.userClicksMyProfileButton()"
@@ -615,10 +250,10 @@
           },
           {
             "result": {
-              "duration": 575000000,
+              "duration": 369000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "the user clicks notifications button",
             "match": {
               "location": "step_definitions.US48_Defs.theUserClicksNotificationsButton()"
@@ -628,18 +263,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:29:13.644Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2647000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:52:20.575Z",
         "line": 15,
         "name": "Send notification",
         "description": "",
@@ -647,7 +271,7 @@
         "after": [
           {
             "result": {
-              "duration": 838000000,
+              "duration": 829000000,
               "status": "passed"
             },
             "match": {
@@ -678,7 +302,7 @@
         ]
       },
       {
-        "line": 9,
+        "line": 8,
         "name": "Login as an admin",
         "description": "",
         "type": "background",
@@ -686,10 +310,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4458000000,
+              "duration": 7815000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "the user is on the login page",
             "match": {
               "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
@@ -698,10 +322,10 @@
           },
           {
             "result": {
-              "duration": 657000000,
+              "duration": 360000000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "the user enters the admin credentials",
             "match": {
               "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
@@ -710,10 +334,10 @@
           },
           {
             "result": {
-              "duration": 625000000,
+              "duration": 585000000,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "user clicks my profile button",
             "match": {
               "location": "step_definitions.US52_Defs.userClicksMyProfileButton()"
@@ -722,10 +346,10 @@
           },
           {
             "result": {
-              "duration": 630000000,
+              "duration": 438000000,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "the user clicks notifications button",
             "match": {
               "location": "step_definitions.US48_Defs.theUserClicksNotificationsButton()"
@@ -735,26 +359,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:29:30.336Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2745000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 18,
+        "start_timestamp": "2021-11-11T14:52:34.481Z",
+        "line": 19,
         "name": "Send notification",
         "description": "",
         "id": "send-a-notification;send-notification",
         "after": [
           {
             "result": {
-              "duration": 912000000,
+              "duration": 800000000,
               "status": "passed"
             },
             "match": {
@@ -767,10 +380,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6732000000,
+              "duration": 6394000000,
               "status": "passed"
             },
-            "line": 19,
+            "line": 20,
             "name": "send a notification to the users",
             "match": {
               "location": "step_definitions.US48_Defs.sendANotificationToTheUsers()"
@@ -790,16 +403,7 @@
     "id": "send-a-notification",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/US48.feature",
-    "tags": [
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   },
   {
     "line": 2,
@@ -813,7 +417,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4808000000,
+              "duration": 6296000000,
               "status": "passed"
             },
             "line": 4,
@@ -825,7 +429,7 @@
           },
           {
             "result": {
-              "duration": 727000000,
+              "duration": 293000000,
               "status": "passed"
             },
             "line": 5,
@@ -838,18 +442,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:29:47.111Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2744000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:52:50.880Z",
         "line": 8,
         "name": "Sign out page should be active.",
         "description": "",
@@ -857,7 +450,7 @@
         "after": [
           {
             "result": {
-              "duration": 800000000,
+              "duration": 650000000,
               "status": "passed"
             },
             "match": {
@@ -870,7 +463,7 @@
         "steps": [
           {
             "result": {
-              "duration": 817000000,
+              "duration": 653000000,
               "status": "passed"
             },
             "line": 9,
@@ -882,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 2064000000,
+              "duration": 2026000000,
               "status": "passed"
             },
             "line": 10,
@@ -898,10 +491,10 @@
             "name": "@sprint2"
           },
           {
-            "name": "@smoke"
+            "name": "@SignOut"
           },
           {
-            "name": "@SignOut"
+            "name": "@smoke"
           }
         ]
       },
@@ -914,7 +507,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4478000000,
+              "duration": 6389000000,
               "status": "passed"
             },
             "line": 4,
@@ -926,7 +519,7 @@
           },
           {
             "result": {
-              "duration": 658000000,
+              "duration": 394000000,
               "status": "passed"
             },
             "line": 5,
@@ -939,18 +532,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:29:59.087Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2714000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:53:00.821Z",
         "line": 13,
         "name": "After logout the page login button should be visible instead my profile button.",
         "description": "",
@@ -958,7 +540,7 @@
         "after": [
           {
             "result": {
-              "duration": 774000000,
+              "duration": 697000000,
               "status": "passed"
             },
             "match": {
@@ -971,7 +553,7 @@
         "steps": [
           {
             "result": {
-              "duration": 645000000,
+              "duration": 598000000,
               "status": "passed"
             },
             "line": 14,
@@ -983,7 +565,7 @@
           },
           {
             "result": {
-              "duration": 536000000,
+              "duration": 366000000,
               "status": "passed"
             },
             "line": 15,
@@ -995,7 +577,7 @@
           },
           {
             "result": {
-              "duration": 2100000000,
+              "duration": 2074000000,
               "status": "passed"
             },
             "line": 16,
@@ -1011,10 +593,10 @@
             "name": "@sprint2"
           },
           {
-            "name": "@smoke"
+            "name": "@SignOut"
           },
           {
-            "name": "@SignOut"
+            "name": "@smoke"
           }
         ]
       }
@@ -1032,14 +614,6 @@
           "line": 1,
           "column": 1
         }
-      },
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 10
-        }
       }
     ]
   },
@@ -1047,26 +621,14 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-11-08T23:30:11.018Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2833000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:53:11.351Z",
         "line": 16,
         "name": "US-70-TC-001 the user login with valid credentials",
         "description": "",
-        "id": ";us-70-tc-001-the-user-login-with-valid-credentials;;2",
+        "id": "api;us-70-tc-001-the-user-login-with-valid-credentials;;2",
         "after": [
           {
             "result": {
-              "duration": 824000000,
               "status": "passed"
             },
             "match": {
@@ -1079,7 +641,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4585000000,
+              "duration": 3959000000,
               "status": "passed"
             },
             "line": 5,
@@ -1118,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 1572000000,
+              "duration": 1599000000,
               "status": "passed"
             },
             "line": 7,
@@ -1184,26 +746,14 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:30:20.861Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2739000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:53:16.933Z",
         "line": 17,
         "name": "US-70-TC-001 the user login with valid credentials",
         "description": "",
-        "id": ";us-70-tc-001-the-user-login-with-valid-credentials;;3",
+        "id": "api;us-70-tc-001-the-user-login-with-valid-credentials;;3",
         "after": [
           {
             "result": {
-              "duration": 735000000,
               "status": "passed"
             },
             "match": {
@@ -1216,7 +766,7 @@
         "steps": [
           {
             "result": {
-              "duration": 666000000,
+              "duration": 649000000,
               "status": "passed"
             },
             "line": 5,
@@ -1256,7 +806,7 @@
           },
           {
             "result": {
-              "duration": 30000000,
+              "duration": 51000000,
               "status": "passed"
             },
             "line": 7,
@@ -1295,7 +845,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -1322,26 +871,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:30:25.045Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2668000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
+        "start_timestamp": "2021-11-11T14:53:17.654Z",
         "line": 18,
         "name": "US-70-TC-001 the user login with valid credentials",
         "description": "",
-        "id": ";us-70-tc-001-the-user-login-with-valid-credentials;;4",
+        "id": "api;us-70-tc-001-the-user-login-with-valid-credentials;;4",
         "after": [
           {
             "result": {
-              "duration": 729000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1354,7 +892,7 @@
         "steps": [
           {
             "result": {
-              "duration": 645000000,
+              "duration": 703000000,
               "status": "passed"
             },
             "line": 5,
@@ -1376,7 +914,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -1394,7 +931,7 @@
           },
           {
             "result": {
-              "duration": 34000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 7,
@@ -1460,26 +997,14 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:30:29.136Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2728000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 27,
+        "start_timestamp": "2021-11-11T14:53:18.411Z",
+        "line": 28,
         "name": "US-70-TC-002 the user login with invalid credentials",
         "description": "",
-        "id": ";us-70-tc-002-the-user-login-with-invalid-credentials;;2",
+        "id": "api;us-70-tc-002-the-user-login-with-invalid-credentials;;2",
         "after": [
           {
             "result": {
-              "duration": 744000000,
               "status": "passed"
             },
             "match": {
@@ -1492,10 +1017,10 @@
         "steps": [
           {
             "result": {
-              "duration": 695000000,
+              "duration": 673000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "the user login with \"admin@gmail.com\" and \"Admin123.1\"",
             "match": {
               "arguments": [
@@ -1516,7 +1041,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "the user send post request to \"/user/account/login\"",
             "match": {
               "arguments": [
@@ -1533,7 +1058,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "the user verifies response body contains \"Unauthorized\"",
             "match": {
               "arguments": [
@@ -1551,7 +1076,7 @@
               "duration": 1000000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "the user verifies the status code is 401",
             "match": {
               "arguments": [
@@ -1575,26 +1100,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:30:33.319Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2687000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 28,
+        "start_timestamp": "2021-11-11T14:53:19.094Z",
+        "line": 29,
         "name": "US-70-TC-002 the user login with invalid credentials",
         "description": "",
-        "id": ";us-70-tc-002-the-user-login-with-invalid-credentials;;3",
+        "id": "api;us-70-tc-002-the-user-login-with-invalid-credentials;;3",
         "after": [
           {
             "result": {
-              "duration": 770000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -1607,10 +1121,10 @@
         "steps": [
           {
             "result": {
-              "duration": 663000000,
+              "duration": 666000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "the user login with \"yetkili@gmail.com\" and \"Yetkili123.2\"",
             "match": {
               "arguments": [
@@ -1631,7 +1145,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "the user send post request to \"/user/account/login\"",
             "match": {
               "arguments": [
@@ -1649,7 +1163,7 @@
               "duration": 1000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "the user verifies response body contains \"Unauthorized\"",
             "match": {
               "arguments": [
@@ -1666,7 +1180,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "the user verifies the status code is 401",
             "match": {
               "arguments": [
@@ -1690,26 +1204,14 @@
         ]
       },
       {
-        "start_timestamp": "2021-11-08T23:30:37.470Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2694000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 29,
+        "start_timestamp": "2021-11-11T14:53:19.778Z",
+        "line": 30,
         "name": "US-70-TC-002 the user login with invalid credentials",
         "description": "",
-        "id": ";us-70-tc-002-the-user-login-with-invalid-credentials;;4",
+        "id": "api;us-70-tc-002-the-user-login-with-invalid-credentials;;4",
         "after": [
           {
             "result": {
-              "duration": 718000000,
               "status": "passed"
             },
             "match": {
@@ -1722,10 +1224,10 @@
         "steps": [
           {
             "result": {
-              "duration": 657000000,
+              "duration": 652000000,
               "status": "passed"
             },
-            "line": 21,
+            "line": 22,
             "name": "the user login with \"kullanici1@gmail.com\" and \"Kullanici123.3\"",
             "match": {
               "arguments": [
@@ -1746,7 +1248,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "the user send post request to \"/user/account/login\"",
             "match": {
               "arguments": [
@@ -1761,10 +1263,9 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
-            "line": 23,
+            "line": 24,
             "name": "the user verifies response body contains \"Unauthorized\"",
             "match": {
               "arguments": [
@@ -1781,7 +1282,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "the user verifies the status code is 401",
             "match": {
               "arguments": [
@@ -1805,9 +1306,9 @@
         ]
       }
     ],
-    "name": "",
+    "name": "api",
     "description": "",
-    "id": "",
+    "id": "api",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/US70.feature",
     "tags": [
@@ -1817,14 +1318,6 @@
         "location": {
           "line": 1,
           "column": 1
-        }
-      },
-      {
-        "name": "@smoke",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 11
         }
       }
     ]

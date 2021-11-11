@@ -1,6 +1,6 @@
-@sprint3  @smoke
+@sprint3
 Feature: api
-
+  @smoke
   Scenario Outline: US-70-TC-001 the user login with valid credentials
     Given the user login with "<email>" and "<sifre>"
     When the user send post request to "/user/account/login"
@@ -17,6 +17,7 @@ Feature: api
       | yetkili@gmail.com    | Yetkili123.   |
       | kullanici1@gmail.com | Kullanici123. |
 
+  @smoke
   Scenario Outline: US-70-TC-002 the user login with invalid credentials
     Given the user login with "<email>" and "<sifre>"
     When the user send post request to "/user/account/login"

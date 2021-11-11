@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: User should be able to create a new add after entering required datas
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 42.564 s <<< FAILURE! - in User should be able to create a new add after entering required datas
+US-043-TC-001 Save as button should be enabled when filled mandatory fields(User should be able to create a new add after entering required datas)  Time elapsed: 14.576 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CFSA1I0', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: RemoteWebDriver
+
+US-043-TC-002 See successfully saved ad when click save ad button(User should be able to create a new add after entering required datas)  Time elapsed: 27.988 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@placeholder='İlan Başlığını Giriniz']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CFSA1I0', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\ceng\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 97d80d2701aa0194ded0f60a73b2dd5a
+*** Element info: {Using=xpath, value=//input[@placeholder='İlan Başlığını Giriniz']}
+
