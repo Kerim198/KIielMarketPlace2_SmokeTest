@@ -9,5 +9,8 @@
         <module name="KIielMarketPlace2_SmokeTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KIielMarketPlace2_SmokeTest" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

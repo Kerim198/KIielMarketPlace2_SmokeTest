@@ -12,7 +12,6 @@ import java.util.concurrent.TimeUnit;
 
 public class Hooks {
 
-    @Before
     public void setUp(){
 
         Driver.getDriver().manage().window().maximize();

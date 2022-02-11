@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: As a User I should be able to sign out with "Cikis" button
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 19.471 s <<< FAILURE! - in As a User I should be able to sign out with "Cikis" button
+Sign out page should be active.(As a User I should be able to sign out with "Cikis" button)  Time elapsed: 14.585 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29394
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CFSA1I0', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:29394
+Caused by: java.net.ConnectException: Connection refused: connect
+
+After logout the page login button should be visible instead my profile button.(As a User I should be able to sign out with "Cikis" button)  Time elapsed: 4.884 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-CFSA1I0', ip: '192.168.142.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\ceng\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 626c5394c75184d820d77e103ef151c5
+
+After logout the page login button should be visible instead my profile button.(As a User I should be able to sign out with "Cikis" button)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

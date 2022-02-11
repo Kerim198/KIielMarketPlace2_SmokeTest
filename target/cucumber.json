@@ -1,0 +1,1325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T14:51:36.559Z",
+        "line": 4,
+        "name": "US-043-TC-001 Save as button should be enabled when filled mandatory fields",
+        "description": "",
+        "id": "user-should-be-able-to-create-a-new-add-after-entering-required-datas;us-043-tc-001-save-as-button-should-be-enabled-when-filled-mandatory-fields",
+        "after": [
+          {
+            "result": {
+              "duration": 853000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10661000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 510000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters the admin credentials",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4581000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user goes to the \"http://environment.kielmarketplace.nl/add_ilan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://environment.kielmarketplace.nl/add_ilan\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.US43_Defs.theUserGoesToThe(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify save ad button is enabled",
+            "match": {
+              "location": "step_definitions.US43_Defs.verifySaveAdButtonIsEnabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:51:53.457Z",
+        "line": 11,
+        "name": "US-043-TC-002 See successfully saved ad when click save ad button",
+        "description": "",
+        "id": "user-should-be-able-to-create-a-new-add-after-entering-required-datas;us-043-tc-002-see-successfully-saved-ad-when-click-save-ad-button",
+        "after": [
+          {
+            "result": {
+              "duration": 647000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5993000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 320000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters the user credentials",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_enters_the_user_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4144000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user goes to the \"http://environment.kielmarketplace.nl/add_ilan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://environment.kielmarketplace.nl/add_ilan\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.US43_Defs.theUserGoesToThe(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14535000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter required info",
+            "match": {
+              "location": "step_definitions.US43_Defs.enterRequiredInfo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click save ad button",
+            "match": {
+              "location": "step_definitions.US43_Defs.clickSaveAdButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1371000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Verify the message is \"İlanınız başarılı bir şekilde kaydedildi.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"İlanınız başarılı bir şekilde kaydedildi.\"",
+                  "offset": 22
+                }
+              ],
+              "location": "step_definitions.US43_Defs.verifyTheMessageIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to create a new add after entering required datas",
+    "description": "",
+    "id": "user-should-be-able-to-create-a-new-add-after-entering-required-datas",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US43.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Login as an admin",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5269000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user enters the admin credentials",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks my profile button",
+            "match": {
+              "location": "step_definitions.US52_Defs.userClicksMyProfileButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 369000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user clicks notifications button",
+            "match": {
+              "location": "step_definitions.US48_Defs.theUserClicksNotificationsButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:52:20.575Z",
+        "line": 15,
+        "name": "Send notification",
+        "description": "",
+        "id": "send-a-notification;send-notification",
+        "after": [
+          {
+            "result": {
+              "duration": 829000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6595000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "send a notification to the local managers",
+            "match": {
+              "location": "step_definitions.US48_Defs.sendANotificationToTheLocalManagers()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Login as an admin",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7815000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 360000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user enters the admin credentials",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_enters_the_admin_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 585000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks my profile button",
+            "match": {
+              "location": "step_definitions.US52_Defs.userClicksMyProfileButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 438000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user clicks notifications button",
+            "match": {
+              "location": "step_definitions.US48_Defs.theUserClicksNotificationsButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:52:34.481Z",
+        "line": 19,
+        "name": "Send notification",
+        "description": "",
+        "id": "send-a-notification;send-notification",
+        "after": [
+          {
+            "result": {
+              "duration": 800000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6394000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "send a notification to the users",
+            "match": {
+              "location": "step_definitions.US48_Defs.sendANotificationToTheUsers()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Send a notification",
+    "description": "",
+    "id": "send-a-notification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US48.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6296000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 293000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the user credentials",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_enters_the_user_credentials()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:52:50.880Z",
+        "line": 8,
+        "name": "Sign out page should be active.",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-sign-out-with-\"cikis\"-button;sign-out-page-should-be-active.",
+        "after": [
+          {
+            "result": {
+              "duration": 650000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks my profile button",
+            "match": {
+              "location": "step_definitions.US52_Defs.userClicksMyProfileButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2026000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "logout button should be enable",
+            "match": {
+              "location": "step_definitions.US52_Defs.logoutButtonShouldBeEnable()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint2"
+          },
+          {
+            "name": "@SignOut"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6389000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 394000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user enters the user credentials",
+            "match": {
+              "location": "step_definitions.Login_Defs.the_user_enters_the_user_credentials()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:53:00.821Z",
+        "line": 13,
+        "name": "After logout the page login button should be visible instead my profile button.",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-sign-out-with-\"cikis\"-button;after-logout-the-page-login-button-should-be-visible-instead-my-profile-button.",
+        "after": [
+          {
+            "result": {
+              "duration": 697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 598000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks my profile button",
+            "match": {
+              "location": "step_definitions.US52_Defs.userClicksMyProfileButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks the logout button",
+            "match": {
+              "location": "step_definitions.US52_Defs.userClicksTheLogoutButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2074000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to see login button",
+            "match": {
+              "location": "step_definitions.US52_Defs.userShouldBeAbleToSeeLoginButton()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint2"
+          },
+          {
+            "name": "@SignOut"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "As a User I should be able to sign out with \"Cikis\" button",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-sign-out-with-\"cikis\"-button",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US52.feature",
+    "tags": [
+      {
+        "name": "@sprint2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T14:53:11.351Z",
+        "line": 16,
+        "name": "US-70-TC-001 the user login with valid credentials",
+        "description": "",
+        "id": "api;us-70-tc-001-the-user-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3959000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user login with \"admin@gmail.com\" and \"Admin123.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Admin123.\"",
+                  "offset": 42
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user send post request to \"/user/account/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/user/account/login\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserSendPostRequestTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1599000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user verifies response body contains following data",
+            "match": {
+              "location": "step_definitions.US70_Defs.theUserVerifiesResponseBodyContainsFollowingData(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sonuc"
+                ]
+              },
+              {
+                "cells": [
+                  "_id"
+                ]
+              },
+              {
+                "cells": [
+                  "username"
+                ]
+              },
+              {
+                "cells": [
+                  "rol"
+                ]
+              },
+              {
+                "cells": [
+                  "token"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user verifies the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:53:16.933Z",
+        "line": 17,
+        "name": "US-70-TC-001 the user login with valid credentials",
+        "description": "",
+        "id": "api;us-70-tc-001-the-user-login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 649000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user login with \"yetkili@gmail.com\" and \"Yetkili123.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yetkili@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Yetkili123.\"",
+                  "offset": 44
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user send post request to \"/user/account/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/user/account/login\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserSendPostRequestTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user verifies response body contains following data",
+            "match": {
+              "location": "step_definitions.US70_Defs.theUserVerifiesResponseBodyContainsFollowingData(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sonuc"
+                ]
+              },
+              {
+                "cells": [
+                  "_id"
+                ]
+              },
+              {
+                "cells": [
+                  "username"
+                ]
+              },
+              {
+                "cells": [
+                  "rol"
+                ]
+              },
+              {
+                "cells": [
+                  "token"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user verifies the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:53:17.654Z",
+        "line": 18,
+        "name": "US-70-TC-001 the user login with valid credentials",
+        "description": "",
+        "id": "api;us-70-tc-001-the-user-login-with-valid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user login with \"kullanici1@gmail.com\" and \"Kullanici123.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kullanici1@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Kullanici123.\"",
+                  "offset": 47
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user send post request to \"/user/account/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/user/account/login\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserSendPostRequestTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user verifies response body contains following data",
+            "match": {
+              "location": "step_definitions.US70_Defs.theUserVerifiesResponseBodyContainsFollowingData(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sonuc"
+                ]
+              },
+              {
+                "cells": [
+                  "_id"
+                ]
+              },
+              {
+                "cells": [
+                  "username"
+                ]
+              },
+              {
+                "cells": [
+                  "rol"
+                ]
+              },
+              {
+                "cells": [
+                  "token"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user verifies the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:53:18.411Z",
+        "line": 28,
+        "name": "US-70-TC-002 the user login with invalid credentials",
+        "description": "",
+        "id": "api;us-70-tc-002-the-user-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 673000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user login with \"admin@gmail.com\" and \"Admin123.1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Admin123.1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user send post request to \"/user/account/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/user/account/login\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserSendPostRequestTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user verifies response body contains \"Unauthorized\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unauthorized\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesResponseBodyContains(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user verifies the status code is 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:53:19.094Z",
+        "line": 29,
+        "name": "US-70-TC-002 the user login with invalid credentials",
+        "description": "",
+        "id": "api;us-70-tc-002-the-user-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 666000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user login with \"yetkili@gmail.com\" and \"Yetkili123.2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yetkili@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Yetkili123.2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user send post request to \"/user/account/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/user/account/login\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserSendPostRequestTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user verifies response body contains \"Unauthorized\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unauthorized\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesResponseBodyContains(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user verifies the status code is 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-11T14:53:19.778Z",
+        "line": 30,
+        "name": "US-70-TC-002 the user login with invalid credentials",
+        "description": "",
+        "id": "api;us-70-tc-002-the-user-login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 652000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user login with \"kullanici1@gmail.com\" and \"Kullanici123.3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kullanici1@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Kullanici123.3\"",
+                  "offset": 47
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserLoginWithAnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user send post request to \"/user/account/login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"/user/account/login\"",
+                  "offset": 30
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserSendPostRequestTo(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user verifies response body contains \"Unauthorized\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Unauthorized\"",
+                  "offset": 41
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesResponseBodyContains(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user verifies the status code is 401",
+            "match": {
+              "arguments": [
+                {
+                  "val": "401",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.US70_Defs.theUserVerifiesTheStatusCodeIs(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sprint3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "api",
+    "description": "",
+    "id": "api",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US70.feature",
+    "tags": [
+      {
+        "name": "@sprint3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
