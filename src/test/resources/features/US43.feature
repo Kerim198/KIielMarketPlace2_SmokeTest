@@ -1,5 +1,5 @@
 
-@smoke
+
 Feature: User should be able to create a new add after entering required datas
 
   Scenario: US-043-TC-001 Save as button should be enabled when filled mandatory fields

@@ -1,12 +1,13 @@
 
-
+@regression
 Feature: Login
 
   # yeni oluşturulmuş veya username ve password bir stepte yazılacaksa bunu kullan
   Scenario: Login as a created new user
     Given the user is on the login page
-    When the user enters "admin@gmail.com" and "Admin123."
+    When the user enters "buraya oluşturulan username" and "buraya oluşturulan password"
     Then the user should be able to login
+
 
     # admin olarak giriş yapılacağı zaman bunu kullan
   Scenario: Login as a admin

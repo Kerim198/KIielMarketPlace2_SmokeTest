@@ -1,21 +1,23 @@
 package step_definitions;
 
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import pages.LoginPage;
+import pages.LoginPagee;
 import utilities.BrowserUtilities;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class Login_Defs {
 
-    LoginPage loginPage = new LoginPage();
-/*
+public class Login_StepDefs {
+
+    LoginPagee loginPage = new LoginPagee();
+
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("keseUrl"));
         BrowserUtilities.waitFor(1);
         loginPage.loginButton.click();
     }
@@ -35,9 +37,9 @@ public class Login_Defs {
     @Then("the user should be able to login")
     public void the_user_should_be_able_to_login() {
         BrowserUtilities.waitFor(1);
-        String expectedTitle = "Kiel MarketPlace";
-        String actualTitle = Driver.getDriver().getTitle();
-        Assert.assertEquals(expectedTitle, actualTitle);
+        String expectedUrl = "https://kese.nl/";
+        String actualUrl = Driver.getDriver().getCurrentUrl();
+        Assert.assertEquals(expectedUrl, actualUrl);
 
     }
 
@@ -49,8 +51,7 @@ public class Login_Defs {
 
     @When("the user enters the local manager credentials")
     public void the_user_enters_the_local_manager_credentials() {
+
         loginPage.loginAsLocalManager();
     }
-
- */
 }

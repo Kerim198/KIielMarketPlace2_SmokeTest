@@ -1,4 +1,4 @@
-@smoke
+
 Feature: Send a notification
 
   #Bir admin olarak bildirimler sayfasında bildirim gonderebilmeliyim.

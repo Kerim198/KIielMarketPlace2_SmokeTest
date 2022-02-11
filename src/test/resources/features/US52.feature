@@ -1,4 +1,4 @@
-@sprint2 @smoke
+
 Feature: As a User I should be able to sign out with "Cikis" button
   Background: Login with valid credentials
     Given the user is on the login page

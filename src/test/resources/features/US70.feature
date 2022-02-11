@@ -1,4 +1,4 @@
-@sprint3  @smoke
+
 Feature:
 
   Scenario Outline: US-70-TC-001 the user login with valid credentials
